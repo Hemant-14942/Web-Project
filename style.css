@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+*{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+.header{
+    width: 100vw;
+    height: 97vh;
+    overflow: hidden;
+    position:relative;
+}
+.nav-image
+{
+    position: absolute;
+    z-index: -1;
+    top:-7vh;
+    object-fit: cover;
+    filter: brightness(95%) contrast(100%) ;
+}
+.nav-items
+{
+    padding:30px;
+    list-style: none;    
+    display: flex;
+    font: 1.1em sans-serif;
+    gap: 50px;
+    color:white;
+    justify-content: right;
+    position: relative;
+    right:100px; 
+
+}
+.nav-items a{
+    color:#fff;
+    text-decoration: none;
+}
+.nav-text
+{
+    color: cornsilk;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    height: 500px;
+    font-family: Okra,Helvetica,sans-serif;
+    position: relative;
+    top:-80px;
+}
+.nav-text h1{
+    font-size:6em;
+    font-weight: 300px;
+    color: #fff;
+    font-style:oblique;
+    /* position: relative; */
+}
+.nav-text p{
+    font-size: 2.4em;
+    margin: -0px;
+    position: relative;
+    top:-40px;
+}
+.container {
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.box {
+    display: flex;
+    height: 60px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 40px;
+    border: 1px solid #d3d3d3;
+    transition: 1s;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
+}
+
+.box i {
+    position: relative;
+    font-size: em;
+}
+
+.box p {
+    font-size: 1.2em;
+}
+
+#boxes:hover {
+    box-shadow: 0px 4px 2px lightgray;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(30, 30, 30);
+    font-size: 1.2em;
+    line-height: 6px;
+    gap: 3px;
+
+}
+
+.container-text img {
+    position: relative;
+    top: 15px;
+    right: -3px;
+}
+
+#container-text-2-p {
+    position: relative;
+    left: 200px;
+}
+
+.container-text-2 {
+    color: rgb(105, 105, 105);
+}
+.last-full {
+    background-color: rgb(248, 248, 248);
+}
+
+.last {
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-start-2 {
+    display: flex;
+    gap: 40px;
+}
+
+.last-start-2-box {
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.last-start-2-box-text {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: -2px;
+    left: 2px;
+}
+
+.last-start-2-box i {
+    position: relative;
+    left: 8px;
+    top: -2px;
+}
+
+.last-mid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+    padding: 40px 60px;
+}
+
+.last-mid h4 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.last-mid a {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+}
+
+.mid-link i {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    margin-right:10px ;
+
+}
+
+.mid-link img {
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#mid-img
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mid-link-link{
+    display: flex;
+}
+
+.last-hr {
+    padding: 40px 60px;
+}
+
+.last-hr p {
+    margin-top: 10px;
+    color: grey;
+}
